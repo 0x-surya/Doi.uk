@@ -1628,3 +1628,25 @@ section {
     opacity: 1;
   }
 }
+
+/*--------------------------------------------------------------
+# About Us Page
+--------------------------------------------------------------*/
+.aboutpage .container h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #364146;
+}
+.aboutpage#hero h5 {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #364146;
+}
+.aboutpage #about .col-lg-6 .img-fluid {
+  text-align: center;
+}
+.aboutpage #about .col-lg-6 .img-fluid img {
+  width: 80%;
+}
