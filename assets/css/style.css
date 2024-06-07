@@ -1644,9 +1644,20 @@ section {
   line-height: 40px;
   color: #364146;
 }
-.aboutpage #about .col-lg-6 .img-fluid {
-  text-align: center;
+.aboutpage #about .col-lg-6:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.aboutpage #about .col-lg-6 .img-fluid img {
-  width: 80%;
+.aboutpage #about .col-lg-6 .img-fluid {
+  width: 76%;
+}
+.aboutpage #about h3 {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 40px;
+  color: #364146;
+}
+.aboutpage .fst-italic {
+  font-weight: 700;
 }
