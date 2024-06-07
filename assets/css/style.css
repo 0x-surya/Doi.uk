@@ -1661,3 +1661,38 @@ section {
 .aboutpage .fst-italic {
   font-weight: 700;
 }
+/*--------------------------------------------------------------
+# Board Members Page
+--------------------------------------------------------------*/
+.boardpage {
+  width: 100%;
+  padding: 60px 0;
+}
+.members h3 {
+  font-weight: 900;
+  margin-bottom: 40px;
+  color: #364146;
+}
+.boardpage .row {
+  margin: 30px 0px;
+}
+.boardpage .row ul li {
+  line-height: 30px;
+}
+.boardpage .img-fluid:first-child {
+  width: 80%;
+}
+@media (max-width: 991px) {
+  .boardpage .members .img-field {
+    display: none;
+  }
+  .boardpage .members .img-field img{
+    display: none;
+  }
+  .boardpage .col-sm-12 {
+    width: 100%;
+    display: block !important;
+    text-align: left !important; 
+  }
+
+}
