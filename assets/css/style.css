@@ -1694,5 +1694,45 @@ section {
     display: block !important;
     text-align: left !important; 
   }
-
+}
+/*--------------------------------------------------------------
+# DOI Page
+--------------------------------------------------------------*/
+.doipage {
+  padding: 0;
+  margin-top: 50px;
+}
+.doipage .doi h5 {
+  margin: 0 0 50px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #364146;
+}
+.doipage h3 {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #364146;
+}
+.doipage .keyfeatures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.doipage .keyfeatures .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.doipage .content ul li {
+  line-height: 40px;
+  margin-bottom: 14px;
+}
+.doipage .content ul li span {
+  font-weight: 800;
+  color: #364146;
+}
+.doipage .row:last-child .content {
+  line-height: 30px;
 }
