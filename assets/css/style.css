@@ -392,11 +392,11 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #009cea;
+  background: #120E7F;
 }
 
 #hero .btn-get-started:hover {
-  background: #008bd1;
+  background: #FD7704;
 }
 
 #hero .hero-img {
@@ -511,7 +511,7 @@ section {
   margin-bottom: 0;
 }
 .about .content p:last-child a {
-  color: #ed3c0d;
+  color: #FD7704;
   font-weight: 600;
 }
 .about .content p:last-child a i {
@@ -780,7 +780,7 @@ section {
   font-weight: 550;
 }
 .cta p.des a {
-  color: #003651;
+  color: #120E7F;
   font-weight: 800;
 }
 .cta p.des a:hover {
@@ -800,11 +800,11 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #009cea;
-}
+  background: #120E7F;
+  }
 
 .cta .cta-btn:hover {
-  background: #008bd1;
+  background: #FD7704;
 }
 
 .cta .col-lg-4 {
@@ -1712,7 +1712,6 @@ section {
 .doipage h3 {
   text-align: center;
   font-weight: 800;
-  margin-bottom: 30px;
   color: #364146;
 }
 .doipage .keyfeatures {
@@ -1735,6 +1734,9 @@ section {
 }
 .doipage .row:last-child .content {
   line-height: 30px;
+}
+.doipage .keyfeatures img {
+  width: 74%;
 }
 /*--------------------------------------------------------------
 # Register DOI Page
