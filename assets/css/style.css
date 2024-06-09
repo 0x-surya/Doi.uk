@@ -1798,3 +1798,124 @@ section {
    color: #120E7F;
   font-weight: 800;
 }
+
+/*--------------------------------------------------------------
+#404 Page Not Found
+--------------------------------------------------------------*/
+.notfoundpage {
+  padding: 0;
+  margin: 50px 0px;
+}
+.error ul li a {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.error .floofy {
+ content: url("../img/notfoundbook.png");
+  width: 100%;
+}
+.error span.title {
+  font-size: 28px;
+}
+
+.error .typed-cursor {
+  font-size: 28px;
+}
+
+@media(max-width: 768px) {
+  .error .container {
+    padding: 0px 30px;
+    height: 100%;
+  }
+  .error ul li a {
+    text-align: center;
+  }
+  .error-img {
+    text-align: center;
+    margin: 0 auto !important;
+   float: none;
+  }
+  .error span.title {
+    font-size: 26px;
+  }
+  .error .typed-cursor {
+    font-size: 26px;
+  }
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.error .vertical-center {
+ float: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.error-img {
+    text-align: right;
+    margin: 0 auto !important;
+}
+.error-desc {
+  text-align: justify;
+  vertical-align: middle;
+  height: 161px; 
+}
+.error-desc p span {
+  color: #120E7F;
+  font-weight: 800;
+}
+
+/*--------------------------------------------------------------
+#Privacy Policy Page
+--------------------------------------------------------------*/
+.privacypage {
+  padding: 0;
+  margin-top: 40px;
+}
+.privacypage .title {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #364146;
+}
+.privacypage h4 {
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #364146;
+}
+.privacypage .content p {
+  line-height: 34px;
+}
+.privacypage .content ul {
+  margin-bottom: 30px;
+}
+.privacypage .content ul li {
+  line-height: 30px;
+  margin-bottom: 14px;
+}
+.privacypage .content ul li span {
+  font-weight: 800;
+  color: #364146;
+}

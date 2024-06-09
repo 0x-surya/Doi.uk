@@ -253,3 +253,18 @@
   });
 
 })();
+
+// Not found page
+
+$(function(){
+  $(".title").typed({
+    strings: ["Woopsie!", "An error occurred. :(<br />"],
+    typeSpeed: 40,
+    onStringTyped: function() {
+      if($(".title:contains('An error occurred. :(')").length > 0) {
+  $('.typed-cursor').hide();
+}
+    },
+  });
+
+});
