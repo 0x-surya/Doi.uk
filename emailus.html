@@ -31,47 +31,47 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center">
 
-      <div class="logo me-auto">
-        <h1><a href="index.html">Doi Academy</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>The Academy</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="./about.html">About Us</a></li>
-              <li><a class="nav-link scrollto" href="./boardmembers.html">Board Members</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>The Community</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="./regsiterdoi.html">How to Register for DOI ?</a></li>
-              <li><a class="nav-link scrollto" href="./user.html">Who are the Users ?</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Digital Identifier</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="./doi.html">What is DOI ?</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="header-social-links d-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-envelope"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-
+    <div class="logo me-auto">
+      <a href="index.html"><img src="./assets/img/logo.png" alt=""></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     </div>
-  </header><!-- End Header -->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li class="dropdown"><a href="#"><span>The Academy</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a class="nav-link scrollto" href="./about.html">About Us</a></li>
+            <li><a class="nav-link scrollto" href="./boardmembers.html">Board Members</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"><span>The Community</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a class="nav-link scrollto" href="./regsiterdoi.html">How to Register for DOI ?</a></li>
+            <li><a class="nav-link scrollto" href="./user.html">Who are the Users ?</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"><span>Digital Identifier</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a class="nav-link scrollto" href="./doi.html">What is DOI ?</a></li>
+          </ul>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+    <div class="header-social-links d-flex align-items-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-envelope"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+    </div>
+
+  </div>
+</header><!-- End Header -->
 
   <main id="main">
         <!-- ======= Contact Section ======= -->
@@ -96,13 +96,23 @@
                         <input type="text" class="form-control" name="subject" id="subject" required>
                     </div>
                     </div>
+                    <div class="row">
+                      <div class="form-group col-md-6">
+                          <label for="country">Your Country</label>
+                          <input type="text" name="country" class="form-control" id="country" required>
+                      </div>
+                      <div class="form-group col-md-6 mt-3 mt-md-0">
+                          <label for="name">Your Email</label>
+                          <input type="email" class="form-control" name="email" id="email" required>
+                      </div>
+                      </div>
                     <div class="form-group mt-3">
-                        <label for="name">Your Email</label>
-                        <input type="email" class="form-control" name="email" id="email" required>
+                          <label for="subject">Subject</label>
+                          <input type="text" name="subject" class="form-control" id="subject" required>
                     </div>
                     <div class="form-group mt-3">
-                    <label for="name">Message</label>
-                    <textarea class="form-control" name="message" rows="10" required></textarea>
+                    <label for="query">Your Query</label>
+                    <textarea class="form-control" name="query" rows="10" required></textarea>
                     </div>
                     <div class="my-3">
                     <div class="loading">Loading</div>
